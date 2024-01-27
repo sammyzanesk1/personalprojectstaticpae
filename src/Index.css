@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.info--name {
+  color: white;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.2px;
+  padding-top: -20px;
+}
+
+.info--role {
+  color: white;
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: -20px;
+}
+
+.info--company {
+  color: white;
+  font-family: Inter;
+  font-weight: 100;
+  font-size: 10px;
+  padding-top: -20px;
+}
+
+.info--btn {
+  box-sizing: content-box;
+  height: 25px;
+  width: 200px;
+  border-radius: 0.5;
+}
+
+.info--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.about--container,
+.interests--container {
+  font-family: Cambria;
+  color: white;
+}
+
+.app--container {
+  background-color: #1b263b;
+  max-width: 60%;
+}
+
+.info--img {
+  border-radius: 30px 30px 0 0;
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+.interests--text {
+  font-size: 12px;
+  line-break: 70%;
+}
+
+.about--text {
+  font-size: 12px;
+}
+
+.main--text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 10px;
+}
+
+.interests--title,
+.about--title {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Cambria;
+}
+
+.main--text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 90px;
+}
+/* .fa-brands {
+  height: 1.4rem;
+  width: 1.2rem;
+  display: block;
+  color: white;
+  font: var(--fa-font-brands);
+}
+
+.footer {
+  background-color: black;
+} */
