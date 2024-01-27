@@ -1,5 +1,9 @@
 body {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #264653;
+  height: 100vh;
+  border-radius: 1%;
 }
 
 .root {
@@ -64,16 +68,19 @@ body {
 
 .app--container {
   background-color: #1b263b;
-  max-width: 70%;
-  max-height: 100vh;
+  border-radius: 2.4%;
+  width: 70vb;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 20px;
 }
 
 .info--img {
   border-radius: 20px 20px 0 0;
-  padding-top: 10px;
 }
 
 .interests--text {
@@ -139,7 +146,7 @@ body {
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
   width: 100%;
 }
@@ -149,4 +156,8 @@ body {
   margin-top: 8px;
   padding: 8px 18px 24px 10px;
   margin-bottom: 10px;
+}
+
+.main--container {
+  margin-top: 8px;
 }

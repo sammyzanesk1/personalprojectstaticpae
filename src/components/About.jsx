@@ -3,9 +3,8 @@ export default function About() {
     <div className="about--container">
       <h1 className="about--title">About</h1>
       <p className="about--text">
-        I am a young, motivated, software engineer keenly interested in
-        understanding the dynamics of the best Frontend Framework in the world,
-        React!
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit
       </p>
     </div>
   );
