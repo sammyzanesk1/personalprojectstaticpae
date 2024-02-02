@@ -3,9 +3,10 @@ export default function Interests() {
     <div className="interests--container">
       <h1 className="interests--title">Interests</h1>
       <p className="interests--text">
-        How the various parts of the web interacts in a very complex yet
-        seamless manner stirs my interest greatly. bsdvkfvfebjsdbvieu
-        dsbvjsbrifsv vbifviwuriwu jbiabvuwiur bvwiuer9u.
+        Working with modern UI frameworks like React, Angular, or Vue.js to
+        build scalable and maintainable applications efficiently. Close
+        collaboration with designers, backend developers, and other
+        stakeholders.
       </p>
     </div>
   );

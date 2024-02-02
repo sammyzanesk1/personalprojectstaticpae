@@ -9,11 +9,15 @@ export default function App() {
   return (
     <>
       <div className="app--container">
-        <Info />
-        <div className="main--container">
-          <About />
-          <Interests />
-          <Footer />
+        <div className="card--container">
+          <Info />
+          <div className="main--container">
+            <About />
+            <Interests />
+            <div className="footer--container">
+              <Footer />
+            </div>
+          </div>
         </div>
       </div>
     </>

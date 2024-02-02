@@ -1,7 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #264653;
+  background-color: #000814;
   height: 100vh;
   border-radius: 1%;
 }
@@ -64,10 +64,12 @@ body {
 .interests--container {
   font-family: Cambria;
   color: white;
+  margin-left: 14px;
+  padding-left: 4px;
 }
 
 .app--container {
-  background-color: #1b263b;
+  background-color: #264653;
   border-radius: 2.4%;
   width: 70vb;
   height: 90vh;
@@ -79,26 +81,23 @@ body {
   padding-top: 20px;
 }
 
-.info--img {
-  border-radius: 20px 20px 0 0;
-}
-
 .interests--text {
-  font-size: 11px;
+  font-size: 12px;
   margin-top: -12px;
   font-family: Lucida Sans;
   align-self: center;
   justify-self: center;
-  padding-left: 4px;
+  color: #edf6f9;
 }
 
 .about--text {
-  font-size: 11px;
+  font-size: 12px;
   margin-top: -12px;
-  font-family: Lucida Sans;
+  font-family: "Times New Roman", Times, serif;
   align-self: center;
   justify-self: center;
   padding-left: 4px;
+  color: white;
 }
 
 .interests--title,
@@ -109,6 +108,7 @@ body {
   font-family: Cambria;
   margin-top: 10px;
   padding: 0 2px 2px 4px;
+  color: white;
 }
 
 .main--container {
@@ -116,11 +116,11 @@ body {
   flex-direction: column;
   padding-top: 12px;
   max-width: 326px;
-  margin-left: 14px;
   justify-content: center;
   align-items: self-start;
-  padding-left: 4px;
   word-wrap: break-word;
+  margin-top: 8px;
+  width: 100%;
 }
 
 .mail--btn {
@@ -144,7 +144,7 @@ body {
   height: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -158,6 +158,20 @@ body {
   margin-bottom: 10px;
 }
 
-.main--container {
-  margin-top: 8px;
+.card--container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+  background-color: #0d1b2a;
+  overflow: hidden; /* prevents any inner element to display outside d area*/
+  border-radius: 20px 20px 0 0; /*curve d edes of d container*/
 }
+
+.footer--container {
+  min-width: 370px;
+  background-color: #4f000b;
+}
+
+/* body * {
+  border: 1px red solid;
+} */

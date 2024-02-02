@@ -3,8 +3,9 @@ export default function About() {
     <div className="about--container">
       <h1 className="about--title">About</h1>
       <p className="about--text">
-        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit
+        Designing stunning user interfaces, mastering responsive layouts, and
+        bringing digital experiences to life through HTML, CSS, and JavaScript.
+        Ultimately, shaping the visual landscapes of the web.
       </p>
     </div>
   );
